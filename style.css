@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+      font-family: Arial, sans-serif;
+      background: rgba(0, 0, 0, 0.7);
+      width: 100%;
+      background-image: url(https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg?_gl=1*1yer9c0*_ga*MTAwNDA3NTY3Ny4xNzU2NjMxMTUy*_ga_8JE65Q40S6*czE3NTY2MzExNTIkbzEkZzEkdDE3NTY2MzExNjckajQ1JGwwJGgw);
+      background-size: cover;
+      height: 100vh;
+      background-position: center;
+    }
+
+.calculator{
+    width: 300px;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    background: transparent;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+    text-align: right;
+    padding: 10px 20px;
+}
+
+button{
+    padding: 20px;
+    width: 100%;
+    margin: 0px 3px;
+    cursor: pointer;
+    border-radius: 50%;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0px;
+}
+
+.color{
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.zero{
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: none;
+}
+
+.color:hover{
+    background-color: black;
+    color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.9);
+}
+
+ .equals{
+    border-radius: 50%;
+    background-color: orange;
+    color: white;
+    border: none;
+ }
+
+.del,.alc{
+    background-color: rgb(123, 182, 34);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    color: white;
+    font-size: 45px;
+    font-family: "Roboto Mono", monospace;
+}
+
+input{
+    height: 90px;
+    width: 90%;
+    font-size: 30px;
+    box-sizing: border-box;
+    margin: 0px 0px 0px 15px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    font-weight: bold;
+    color:  white;
+    text-align: right; 
+    padding: 0px 8px;
+    background: transparent;
+    outline: none;
+}
